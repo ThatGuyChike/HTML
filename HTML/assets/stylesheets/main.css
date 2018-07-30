@@ -8697,7 +8697,7 @@ header nav ul ul li > a:focus,
   background-color: #dbe0eb;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   #left-chunk{
     width: auto;
   }
@@ -8724,7 +8724,7 @@ header nav ul ul li > a:focus,
 
 }
 
-@media (min-width: 600px) and (max-width: 1024px){
+@media (min-width: 600px) and (max-width: 1025px){
 
   .msn-thmb-vdo {
     width: 48%;
