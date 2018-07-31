@@ -6767,7 +6767,8 @@ header.styl5.wd-drk-bg nav {
 }
 /*===== Login Page =====*/
 .lgn-frm-wrp {
-  background-color: #ccc;
+  background-color: #041b4b;
+  color: #ffffff;
   float: left;
   padding: 55px 75px 75px 45px;
   width: 100%;
@@ -6776,7 +6777,7 @@ header.styl5.wd-drk-bg nav {
 .lgn-frm-wrp > h4 {
   font-size: 18px;
   font-weight: 700;
-  color: #000;
+  color: #ffffff;
   letter-spacing: .25px;
   margin: 0 0 25px;
 }
@@ -6801,7 +6802,7 @@ header.styl5.wd-drk-bg nav {
 }
 .lgn-frm span label {
   font-weight: 400;
-  color: #333;
+  color: #ffcc00;
   letter-spacing: .25px;
   font-size: 13px;
 }
@@ -6817,10 +6818,10 @@ header.styl5.wd-drk-bg nav {
   margin-top: 35px;
   font-size: 13px;
   font-weight: 700;
-  color: #000;
+  color: rgb(0, 0, 0);
   letter-spacing: .75px;
   padding: 16px 25px;
-  background-color: #333;
+  background-color: #ffcc00;
   color: #fff;
 }
 .rgstr-frm-wrp {
