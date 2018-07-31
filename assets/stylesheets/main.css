@@ -8685,7 +8685,7 @@ header nav ul ul li > a:focus,
   background-position:left center;
   background-size: contain;
   background-repeat: no-repeat;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 18px;
   border: 1px solid grey;
   color: grey;
@@ -8697,7 +8697,19 @@ header nav ul ul li > a:focus,
   background-color: #dbe0eb;
 }
 
+#less-pad {
+    padding-left: 5px;
+}
+
+#less-pad p {
+    width: 570px;
+}
+
 @media (max-width: 500px) {
+  .gp {
+    padding: 50px 0;
+  }
+
   #left-chunk{
     width: auto;
   }
@@ -8722,6 +8734,12 @@ header nav ul ul li > a:focus,
    display: none;
   }
 
+}
+
+@media (min-width: 600px) and  (max-width: 850px){
+    .gp {
+        padding: 50px 0;
+    }
 }
 
 @media (min-width: 600px) and (max-width: 1025px){
