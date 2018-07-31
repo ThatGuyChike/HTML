@@ -8711,6 +8711,60 @@ header nav ul ul li > a:focus,
   margin-top: 10px;
 }
 
+td, th {
+  display: table-cell;
+}
+
+.price-column {
+  display: inline-block;
+  margin: 20px 20px;
+  padding: 30px;
+  width: 45%;
+}
+
+.Text--medium {
+  font-weight: bold;
+}
+
+.PricingTable-wrap {
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 79%;
+}
+
+.PricingTable th {
+  color: rgba(3,27,78,.7);
+  font-weight: bold;
+  padding: 14px 10px 13px;
+  text-transform: uppercase;
+  vertical-align: bottom;
+}
+
+.PricingTable tr {
+  border-bottom: 2px solid grey;
+}
+
+.PricingTable tbody tr:last-of-type {
+  border-bottom: none;
+}
+
+.PricingTable thead {
+  background: #f3f5f9;
+}
+
+.PricingTable tbody td:first-child, .PricingTable tbody th:first-child, .PricingTable thead td:first-child, .PricingTable thead th:first-child {
+  padding-left: 40px;
+}
+
+.PricingTable tbody td {
+  padding: 11px 10px 10px;
+  vertical-align: middle;
+}
+
+.PricingTable tbody td:last-child, .PricingTable tbody th:last-child, .PricingTable thead td:last-child, .PricingTable thead th:last-child {
+  padding-right: 30px;
+}
+
 @media (max-width: 500px) {
   .gp {
     padding: 50px 0;
